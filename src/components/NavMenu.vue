@@ -5,8 +5,8 @@
       aria-label="Global">
       <div class="flex items-center justify-between">
         <!-- Logo -->
-        <a class="flex-none rounded-md text-primary text-xl inline-block font-semibold focus:outline-none focus:opacity-80" href="/"
-          aria-label="Koda X">
+        <a class="flex-none rounded-md text-primary text-xl inline-block font-semibold focus:outline-none focus:opacity-80"
+          href="#content" aria-label="Koda X">
           Koda X
         </a>
         <!-- End Logo -->
@@ -38,75 +38,15 @@
         <div
           class="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:ps-7">
           <a class="text-sm text-white hover:text-neutral-300 md:py-4 focus:outline-none focus:text-neutral-300"
-            href="../../templates/agency/index.html" aria-current="page">Home</a>
+            href="#content" aria-current="page">Home</a>
           <a class="text-sm text-white hover:text-neutral-300 md:py-4 focus:outline-none focus:text-neutral-300"
-            href="#">Stories</a>
+            href="#reviews">Avaliações</a>
           <a class="text-sm text-white hover:text-neutral-300 md:py-4 focus:outline-none focus:text-neutral-300"
-            href="#">Reviews</a>
-          <a class="text-sm text-white hover:text-neutral-300 md:py-4 focus:outline-none focus:text-neutral-300"
-            href="#">Approach</a>
-
-          <div class="hs-dropdown [--strategy:static] md:[--strategy:fixed] [--adaptive:none] md:py-4">
-            <button type="button"
-              class="flex items-center w-full text-sm text-white hover:text-neutral-300 focus:outline-none focus:text-neutral-300">
-              About
-              <svg class="flex-shrink-0 ms-1 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path d="m6 9 6 6 6-6" />
-              </svg>
-            </button>
-
-            <div
-              class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 md:w-48 hidden z-10 bg-neutral-800 md:shadow-md rounded-lg p-2 before:absolute top-full before:-top-5 before:start-0 before:w-full before:h-5">
-              <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-white hover:text-neutral-300 font-medium focus:outline-none focus:text-neutral-300"
-                href="#">
-                About
-              </a>
-              <div
-                class="hs-dropdown relative [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover]">
-                <button type="button"
-                  class="w-full flex justify-between items-center py-2 px-3 text-sm text-white hover:text-neutral-300 font-medium focus:outline-none focus:text-neutral-300">
-                  Sub Menu
-                  <svg class="sm:-rotate-90 flex-shrink-0 ms-2 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
-                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path d="m6 9 6 6 6-6" />
-                  </svg>
-                </button>
-
-                <div
-                  class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 md:w-48 hidden z-10 md:mt-2 bg-neutral-800 md:shadow-md rounded-lg p-2 before:absolute before:-end-5 before:top-0 before:h-full before:w-5 top-0 end-full !mx-[10px]">
-                  <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-white hover:text-neutral-300 font-medium focus:outline-none focus:text-neutral-300"
-                    href="#">
-                    About
-                  </a>
-                  <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-white hover:text-neutral-300 font-medium focus:outline-none focus:text-neutral-300"
-                    href="#">
-                    Downloads
-                  </a>
-                  <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-white hover:text-neutral-300 font-medium focus:outline-none focus:text-neutral-300"
-                    href="#">
-                    Team Account
-                  </a>
-                </div>
-              </div>
-
-              <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-white hover:text-neutral-300 font-medium focus:outline-none focus:text-neutral-300"
-                href="#">
-                Downloads
-              </a>
-              <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-white hover:text-neutral-300 font-medium focus:outline-none focus:text-neutral-300"
-                href="#">
-                Team Account
-              </a>
-            </div>
-          </div>
-
+            href="#approach">Abordagem</a>
           <div>
             <a class="group inline-flex items-center gap-x-2 py-2 px-3 bg-primary font-medium text-sm text-neutral-800 rounded-full focus:outline-none"
               href="#contact">
-              Contact us
+              Contate-nos
             </a>
           </div>
         </div>
