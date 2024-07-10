@@ -7,7 +7,7 @@
         <!-- Logo -->
         <a class="flex-none rounded-md text-primary text-xl inline-block font-semibold focus:outline-none focus:opacity-80"
           href="#content" aria-label="Koda X">
-          Koda X
+          <img src="/public/assets/img/logo-full-blue.png" alt="logo" style="max-width: 100px;">
         </a>
         <!-- End Logo -->
 

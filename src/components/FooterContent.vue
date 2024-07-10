@@ -53,11 +53,7 @@
     <div class="relative z-10">
       <div class="w-full max-w-5xl px-4 xl:px-0 py-10 lg:pt-16 mx-auto">
         <div class="inline-flex items-center">
-          <!-- Logo -->
-          <p class="text-white font-semibold text-2xl md:text-xl md:leading-tight">
-            Koda X
-          </p>
-          <!-- End Logo -->
+          <img src="/public/assets/img/logo-full.png" alt="logo" style="max-width: 200px;">
 
           <div class="border-s border-neutral-700 ps-5 ms-5">
             <p class="text-sm text-neutral-400">2024 Koda X.</p>
